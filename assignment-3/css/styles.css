@@ -1,0 +1,44 @@
+#main-content {
+	background-color: #d0f441;
+	margin-top: 40px;
+}
+#header-nav {
+	
+	background-color: #F0FFFF;
+}
+#nav-list {
+	background-color: #F0FFFF;
+	font-size: 30px;
+	padding-top: 10px;
+	margin-top: 10px;
+
+	
+}
+
+li {
+	border-style: solid;
+	border-color: black;
+	border-top-width: 0px;
+}
+#li1 {
+	border-top-width: 3px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (max-width: 767px) {
+	#main-content {
+    margin-left: 50px;
+	margin-right: 50px;
+}
+.navbar-brand{
+	padding-top: 0px;
+}
+}
+@media (min-width: 766px){
+	#header-nav {
+	height: 80px;
+}
+}
